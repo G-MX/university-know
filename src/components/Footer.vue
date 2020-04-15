@@ -28,7 +28,11 @@
   export default {
     name:'Footer',
     data(){
+<<<<<<< HEAD
       return { selected: '首页'}
+=======
+      return { selected: ''}
+>>>>>>> 71c01e52a03e92ca0d8c03ed708b614f6d640bd1
     },
     methods:{
       jumptoHome(){

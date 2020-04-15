@@ -19,7 +19,11 @@ module.exports = {
         }
       },
       '/data': {
+<<<<<<< HEAD
         target: 'http://localhost:8080',//不要写localhost
+=======
+        target: 'http://192.168.5.215:8080',
+>>>>>>> 71c01e52a03e92ca0d8c03ed708b614f6d640bd1
         pathRewrite: {
           '^/data': '/static/mock'  //需要rewrite重写的, 如果在服务器端做了处理则可以不要这段
         }
@@ -27,7 +31,11 @@ module.exports = {
     },
 
     // Various Dev Server settings
+<<<<<<< HEAD
     host: 'localhost', // can be overwritten by process.env.HOST
+=======
+    host: '192.168.5.215', // can be overwritten by process.env.HOST
+>>>>>>> 71c01e52a03e92ca0d8c03ed708b614f6d640bd1
     port: 8080, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
     autoOpenBrowser: false,
     errorOverlay: true,

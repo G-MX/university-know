@@ -159,7 +159,10 @@
   .Basic{
     float: left;
     padding-left: .5rem;
+<<<<<<< HEAD
     font-weight: bold;
+=======
+>>>>>>> 71c01e52a03e92ca0d8c03ed708b614f6d640bd1
     color: #C0C4CC;
   }
   .Basic span:nth-child(2){

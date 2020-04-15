@@ -42,7 +42,11 @@
         self.Publisher = this.HotTopicList[index].Publisher;
         self.PublishTime = this.HotTopicList[index].createtime;
         // alert( self.Tid );
+<<<<<<< HEAD
         self.$router.push( {path:'TopicDetail',query:{Tid:self.Tid,Title:self.Title,Artical:self.Artical,Publisher:self.Publisher,PublishTime:self.PublishTime} } );
+=======
+        self.$router.push( {path:'HotTopicDetail',query:{Tid:self.Tid,Title:self.Title,Artical:self.Artical,Publisher:self.Publisher,PublishTime:self.PublishTime} } );
+>>>>>>> 71c01e52a03e92ca0d8c03ed708b614f6d640bd1
       },
     }
   }
