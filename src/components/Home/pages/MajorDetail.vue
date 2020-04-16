@@ -32,7 +32,6 @@
         <li v-for="(study,index) in MajorList.StudyChoose">
           <div class="StudyClass">{{study.choose}}</div>
           <div>参考书籍：{{study.book}}</div>
-          <div class="StudyIntroduce">&nbsp;&nbsp;&nbsp;{{study.introduce}}</div>
         </li>
       </ul>
     </div>
@@ -121,9 +120,6 @@
   }
   .Choose p{
     font-weight: bold;
-  }
-  .Choose .StudyIntroduce{
-    font-weight: lighter;
   }
   .Choose li{
     margin-top: .5rem;

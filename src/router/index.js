@@ -11,10 +11,6 @@ import MajorDetail from '@/components/Home/pages/MajorDetail'
 import Topic from '@/components/Topic/Topic'
 import AddTopic from '@/components/Topic/pages/AddTopic'
 import TopicDetail from '@/components/Topic/pages/TopicDetail'
-<<<<<<< HEAD
-=======
-import HotTopicDetail from '@/components/Home/pages/HotTopicDetail'
->>>>>>> 71c01e52a03e92ca0d8c03ed708b614f6d640bd1
 import My from '@/components/My/My'
 import MyCollection from '@/components/My/pages/MyCollection'
 import MyComment from '@/components/My/pages/MyComment'
@@ -85,14 +81,6 @@ const router = new Router({
       component: TopicDetail
     },
     {
-<<<<<<< HEAD
-=======
-      path: '/hottopicdetail',
-      name: 'HotTopicDetail',
-      component: HotTopicDetail
-    },
-    {
->>>>>>> 71c01e52a03e92ca0d8c03ed708b614f6d640bd1
       path: '/my',
       name: 'My',
       component: My,
