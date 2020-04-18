@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
-    <router-view v-if="isRouterAlive"/>
+<!--    <keep-alive>-->
+      <router-view v-if="isRouterAlive"/>
+<!--    </keep-alive>-->
   </div>
 </template>
 

@@ -1,13 +1,13 @@
 <template>
   <div>
     <!--  搜索栏  -->
-    <div>
+    <div class="SearchBox">
       <el-input type="text" v-model="Search" placeholder="请输入您需要查询的内容">
         <el-button slot="append" icon="el-icon-search"@click="searchTopic">搜索</el-button>
       </el-input>
     </div>
     <!--  将得到的结果循环遍历到页面上  -->
-    <div class="TopicBox" >
+    <div class="TopicBox animated bounceInRight">
     <div class="Topic" v-for="(topic,index) in reverseTopicList" :key="topic.tid" @click="onclick(index)">
       <div class="Publisher">
         <i class="el-icon-s-custom"></i>
@@ -85,10 +85,15 @@
 </script>
 
 <style scoped>
+  .SearchBox{
+    border-bottom: 1px solid #ccc;
+    z-index: 9999;
+  }
   .TopicBox{
     height: 30.8rem;
     margin-top: -.12rem;
     overflow-y: scroll;
+    z-index: 50;
   }
   .Topic{
     width: 99.5%;

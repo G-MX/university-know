@@ -28,7 +28,7 @@
   export default {
     name:'Footer',
     data(){
-      return { selected: '首页'}
+      return { selected: ''}
     },
     methods:{
       jumptoHome(){

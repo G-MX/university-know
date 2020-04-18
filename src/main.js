@@ -13,6 +13,9 @@ import 'mint-ui/lib/style.css'
 Vue.use(Mint);
 //重置css样式
 import './assets/css/reset.css'
+// 引入animated.css
+import animated from 'animate.css'
+Vue.use(animated)
 //引入字体文件
 import './assets/css/iconfont.css'
 import './assets/js/iconfont.js'

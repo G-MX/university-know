@@ -11,7 +11,9 @@
     </div>
 
     <div class="MyComContent">
-      <div v-for="(MyCom,index) in MyCommentList" :key="MyCom.cid" class="MyCom">
+      <div v-for="(MyCom,index) in MyCommentList"
+           :key="MyCom.cid"
+           class="MyCom animated flipInX">
         <div class="Publisher">
           <i class="el-icon-s-custom"></i>
           {{MyCom.Publisher}}

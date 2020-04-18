@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/components/Home/Home'
 import Login from '@/components/Login'
+import TopicToLogin from '@/components/Topic/pages/TopicToLogin'
 import Register from '@/components/Register'
 import City from '@/components/Home/pages/City'
 import School from '@/components/Home/pages/School'
@@ -11,6 +12,7 @@ import MajorDetail from '@/components/Home/pages/MajorDetail'
 import Topic from '@/components/Topic/Topic'
 import AddTopic from '@/components/Topic/pages/AddTopic'
 import TopicDetail from '@/components/Topic/pages/TopicDetail'
+import HotTopicDetail from '@/components/Home/pages/HotTopicDetail'
 import My from '@/components/My/My'
 import MyCollection from '@/components/My/pages/MyCollection'
 import MyComment from '@/components/My/pages/MyComment'
@@ -31,6 +33,11 @@ const router = new Router({
       path: '/login',
       name: 'Login',
       component: Login
+    },
+    {
+      path: '/ToLogin',
+      name: 'TopicToLogin',
+      component: TopicToLogin
     },
     {
       path: '/register',
@@ -79,6 +86,11 @@ const router = new Router({
       path: '/topicdetail',
       name: 'TopicDetail',
       component: TopicDetail
+    },
+    {
+      path: '/HotTDetail',
+      name: 'HotTopicDetail',
+      component: HotTopicDetail
     },
     {
       path: '/my',

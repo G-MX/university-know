@@ -21,6 +21,7 @@
 
 <script>
   import axios from 'axios'
+  import { MessageBox } from 'mint-ui';
   export default {
     data(){
       return{
@@ -42,7 +43,7 @@
           }).then((response)=>{
             console.log(response);
             if (response.status == 200){
-              alert("发布成功");
+              MessageBox.alert("发布成功");
               this.$router.go(-1);
             }
           }).catch((err)=>{

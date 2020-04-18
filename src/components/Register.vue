@@ -81,9 +81,9 @@
               else if (response.status == 200) {
                 //MessageBox.alert("恭喜您，注册成功！");
                 MessageBox.alert('恭喜您，注册成功！点击确定跳转到登录页面！')
-                //   .then(action => {
-                //   this.$router.push('/login');
-                // });
+                  .then(action => {
+                  this.$router.push('/login');
+                });
               }
             })
           });

@@ -44,7 +44,7 @@
   header .iconfont{
     font-size: 1.8rem;
     position: absolute;
-    bottom: .3rem;
+    bottom: .7rem;
     left: .5rem;
   }
   .updatePwd{

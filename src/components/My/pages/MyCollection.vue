@@ -9,7 +9,9 @@
       </mt-header>
     </div>
 
-    <div v-for="(collection,index) in CollectionList" :key="collection.collect_id" class="MyCollection">
+    <div v-for="(collection,index) in CollectionList"
+         :key="collection.collect_id"
+         class="MyCollection animated flipInX">
       <div class="Collector">
         <i class="el-icon-s-custom"></i>
         {{collection.Publisher}}

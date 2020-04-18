@@ -16,7 +16,7 @@
       </el-input>
     </div>
 
-    <div>
+    <div class="animated flipInY">
       <ul>
         <li v-for="(major,index) in MajorList"  class="Major" @click="onclick(index)">
           {{major}}

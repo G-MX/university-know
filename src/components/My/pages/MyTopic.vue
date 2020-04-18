@@ -9,7 +9,9 @@
       </mt-header>
     </div>
 
-      <div v-for="(Tit,index) in MyTopicList" :key="Tit.tid" class="MyTopic">
+      <div v-for="(Tit,index) in MyTopicList"
+           :key="Tit.tid"
+           class="MyTopic animated flipInX">
         <div class="Publisher">
           <i class="el-icon-s-custom"></i>
           {{Tit.Publisher}}

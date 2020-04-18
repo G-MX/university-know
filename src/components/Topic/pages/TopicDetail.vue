@@ -23,7 +23,7 @@
         </div>
       </mt-header>
     </div>
-    <div class="Message">
+    <div class="Message animated bounceInLeft">
       <!--  帖子内容  -->
       <div class="TopicMessage">
       <div class="Title">
@@ -172,7 +172,7 @@
             duration: 5000
           });
           setTimeout(function () {
-            self.$router.push("/login");
+            self.$router.push("/ToLogin");
           },3000)
         }
         else if(this.Comment.length == 0) {
@@ -233,7 +233,7 @@
             duration: 5000
           });
           setTimeout(function () {
-            self.$router.push("/login");
+            self.$router.push("/ToLogin");
           },3000)
         }
         else{

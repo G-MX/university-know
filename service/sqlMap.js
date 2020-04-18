@@ -2,7 +2,7 @@
 let sqlMap = {
   // 用户
   user: {
-    add: 'insert into User(id, userName, userPwd,sex) values (0, ?, ?, ?)',
+    add: 'insert into User(uid, userName, userPwd,sex) values (0, ?, ?, ?)',
     select_name: 'SELECT * from User where userName = ?',    //查询 username
     check_user: 'SELECT * from User',    //查询 username
     select_pwd: 'SELECT * from User where userPwd = ?',

@@ -11,12 +11,13 @@
       </mt-header>
     </div>
 
-    <div class="MajorIntroduce">
+    <div class="animated flipInY">
+      <div class="MajorIntroduce">
       <p>专业介绍：</p>
       &nbsp;&nbsp;&nbsp;{{MajorList.introduce}}
     </div>
 
-    <div class="Work">
+      <div class="Work">
       <ul>
         <p>就业方向：</p>
         <span v-for="(work,index) in MajorList.workchoice">
@@ -25,8 +26,8 @@
       </ul>
     </div>
 
-    <!--  数组，需要写循环  -->
-    <div class="Choose">
+      <!--  数组，需要写循环  -->
+      <div class="Choose">
       <ul>
         <p>学习课程：</p>
         <li v-for="(study,index) in MajorList.StudyChoose">
@@ -36,7 +37,7 @@
       </ul>
     </div>
 
-
+    </div>
 
 
   </div>
@@ -97,11 +98,14 @@
     height: 3.2rem;
     line-height: 3.2rem;
     width: 100%;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     background: #34A2DA;
   }
   header .iconfont{
     font-size: 1.8rem;
+  }
+  header /deep/ .mint-header-title{
+    overflow: visible;
   }
   .MajorIntroduce{
     text-align: left;

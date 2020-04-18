@@ -42,7 +42,7 @@
         self.Publisher = this.HotTopicList[index].Publisher;
         self.PublishTime = this.HotTopicList[index].createtime;
         // alert( self.Tid );
-        self.$router.push( {path:'TopicDetail',query:{Tid:self.Tid,Title:self.Title,Artical:self.Artical,Publisher:self.Publisher,PublishTime:self.PublishTime} } );
+        self.$router.push( {path:'HotTDetail',query:{Tid:self.Tid,Title:self.Title,Artical:self.Artical,Publisher:self.Publisher,PublishTime:self.PublishTime} } );
       },
     }
   }

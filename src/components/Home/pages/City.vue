@@ -15,7 +15,7 @@
       </el-input>
     </div>
     <!-- 列表 -->
-    <div>
+    <div class="animated flipInY">
       <ul>
         <li v-for="(city,index) in CityList"  class="school" @click="onclick(index)">
           {{city}}

@@ -9,7 +9,7 @@
       </mt-header>
     </div>
 
-    <div class="SchoolContent">
+    <div class="SchoolContent animated flipInY">
       <p>基本信息：</p>
       <div>
         <div class="Basic">
@@ -136,11 +136,14 @@
   header{
     height: 3.2rem;
     width: 100%;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     background: #34A2DA;
   }
   header .iconfont{
     font-size: 1.8rem;
+  }
+  header /deep/ .mint-header-title{
+    overflow: visible;
   }
   .SchoolContent{
     height: auto;
@@ -159,10 +162,7 @@
   .Basic{
     float: left;
     padding-left: .5rem;
-<<<<<<< HEAD
     font-weight: bold;
-=======
->>>>>>> 71c01e52a03e92ca0d8c03ed708b614f6d640bd1
     color: #C0C4CC;
   }
   .Basic span:nth-child(2){
